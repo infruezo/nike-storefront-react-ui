@@ -39,7 +39,7 @@ const Cart = () => {
   return (
     <>
       <div
-        className={`fixed top-0 left-0 right-0 bottom-0 blur-effect-theme w-full h-screen opacity-100 z-[201] ${
+        className={`absolute top-0 left-0 right-0 bottom-0 blur-effect-theme w-full h-screen opacity-100 z-[201] ${
           ifCartState
             ? "opacity-100 visible translate-x-0"
             : "opacity-0 invisible translate-x-8"
