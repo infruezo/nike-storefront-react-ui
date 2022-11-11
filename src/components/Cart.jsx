@@ -57,7 +57,7 @@ const Cart = () => {
           {cartItems.length === 0 ? (
             <CartEmpty onCartToggle={onCartToggle} />
           ) : (
-            <div className="mt-8 mb-4">
+            <div className="mt-16 mb-4">
               <div className="flex flex-col items-start justify-start gap-y-7 lg:gap-y-5 overflow-y-scroll h-[81vh] scroll-smooth scroll-hidden">
                 {cartItems?.map((item, idx) => (
                   <CartItem key={idx} item={item} />
